@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4868319224FA3B9C00A64E37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868319124FA3B9C00A64E37 /* AppDelegate.m */; };
-		4868319524FA3B9C00A64E37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868319424FA3B9C00A64E37 /* SceneDelegate.m */; };
 		4868319824FA3B9C00A64E37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868319724FA3B9C00A64E37 /* ViewController.m */; };
 		4868319B24FA3B9C00A64E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4868319924FA3B9C00A64E37 /* Main.storyboard */; };
 		4868319D24FA3B9D00A64E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4868319C24FA3B9D00A64E37 /* Assets.xcassets */; };
-		486831A024FA3B9D00A64E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4868319E24FA3B9D00A64E37 /* LaunchScreen.storyboard */; };
 		486831A324FA3B9D00A64E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 486831A224FA3B9D00A64E37 /* main.m */; };
+		486831AB24FA3BE200A64E37 /* MQRoomAlertOrderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 486831A924FA3BE200A64E37 /* MQRoomAlertOrderManager.m */; };
+		486831AD24FA3C5700A64E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486831AC24FA3C5700A64E37 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4868318D24FA3B9C00A64E37 /* OrderAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4868319024FA3B9C00A64E37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4868319124FA3B9C00A64E37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4868319324FA3B9C00A64E37 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4868319424FA3B9C00A64E37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4868319624FA3B9C00A64E37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4868319724FA3B9C00A64E37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4868319A24FA3B9C00A64E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4868319C24FA3B9D00A64E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4868319F24FA3B9D00A64E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486831A124FA3B9D00A64E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486831A224FA3B9D00A64E37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		486831A924FA3BE200A64E37 /* MQRoomAlertOrderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQRoomAlertOrderManager.m; sourceTree = "<group>"; };
+		486831AA24FA3BE200A64E37 /* MQRoomAlertOrderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQRoomAlertOrderManager.h; sourceTree = "<group>"; };
+		486831AC24FA3C5700A64E37 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +61,15 @@
 		4868318F24FA3B9C00A64E37 /* OrderAlert */ = {
 			isa = PBXGroup;
 			children = (
+				486831AA24FA3BE200A64E37 /* MQRoomAlertOrderManager.h */,
+				486831A924FA3BE200A64E37 /* MQRoomAlertOrderManager.m */,
 				4868319024FA3B9C00A64E37 /* AppDelegate.h */,
 				4868319124FA3B9C00A64E37 /* AppDelegate.m */,
-				4868319324FA3B9C00A64E37 /* SceneDelegate.h */,
-				4868319424FA3B9C00A64E37 /* SceneDelegate.m */,
 				4868319624FA3B9C00A64E37 /* ViewController.h */,
 				4868319724FA3B9C00A64E37 /* ViewController.m */,
 				4868319924FA3B9C00A64E37 /* Main.storyboard */,
 				4868319C24FA3B9D00A64E37 /* Assets.xcassets */,
-				4868319E24FA3B9D00A64E37 /* LaunchScreen.storyboard */,
+				486831AC24FA3C5700A64E37 /* LaunchScreen.storyboard */,
 				486831A124FA3B9D00A64E37 /* Info.plist */,
 				486831A224FA3B9D00A64E37 /* main.m */,
 			);
@@ -133,7 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486831A024FA3B9D00A64E37 /* LaunchScreen.storyboard in Resources */,
+				486831AD24FA3C5700A64E37 /* LaunchScreen.storyboard in Resources */,
 				4868319D24FA3B9D00A64E37 /* Assets.xcassets in Resources */,
 				4868319B24FA3B9C00A64E37 /* Main.storyboard in Resources */,
 			);
@@ -146,10 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486831AB24FA3BE200A64E37 /* MQRoomAlertOrderManager.m in Sources */,
 				4868319824FA3B9C00A64E37 /* ViewController.m in Sources */,
 				4868319224FA3B9C00A64E37 /* AppDelegate.m in Sources */,
 				486831A324FA3B9D00A64E37 /* main.m in Sources */,
-				4868319524FA3B9C00A64E37 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,14 +162,6 @@
 				4868319A24FA3B9C00A64E37 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4868319E24FA3B9D00A64E37 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4868319F24FA3B9D00A64E37 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
