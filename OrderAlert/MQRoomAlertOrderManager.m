@@ -13,6 +13,7 @@
 
 @end
 
+/** 最大弹框个数，可以根据自己App更改 */
 #define MAX_COUNT 3
 
 @interface MQRoomAlertOrderManager ()
